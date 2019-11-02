@@ -1,0 +1,38 @@
+github workshop
+
+--> desktop GUI git
+
+config user account
+
+-- git commit username and email
+git config --global user.email "email"
+git config --global user.name "name"
+
+-- create ssh key
+ssh-keygen  -t rsa -b 4096
+
+-- go to github
+Settings -> SSH and GPG keys -> New key (Paste public key)
+
+-- test the ssh key ((tests the key connectivity))
+ssh git@github.com 
+
+
+-------------------------------------------------------------
+-- set up git
+-- initalizes git creating a repository
+git init 
+
+-- test connectivity, status of files
+git status
+
+-- add to the repository
+git add "FILENAME"
+
+-- commit
+git commit -m "messages"
+
+
+
+
+
