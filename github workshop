@@ -29,9 +29,16 @@ git status
 -- add to the repository
 git add "FILENAME"
 
--- commit
+-- commit 
+git commit <FILENAME>  --> Goes to text editor
+enter title, and information (more change information than just a quick oneliner)
+--Usual information --> Why is something done, What its done, etc
+
+--OR--
+-- commit (one liner)
 git commit -m "messages"
 
+-- push
 
 
 
