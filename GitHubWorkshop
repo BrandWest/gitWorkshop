@@ -1,4 +1,4 @@
-github workshop
+github workshop Windows or Linux
 
 --> desktop GUI git
 
@@ -27,9 +27,10 @@ git init
 git status
 
 -- add to the repository
-git add "FILENAME"
+git add "FILENAME1" "FileNameN"
+git add "Wildcards (* - all files or . - this directory)"
 
--- commit 
+-- commit ( multiple files? Multiple additions to commit required)
 git commit <FILENAME>  --> Goes to text editor
 enter title, and information (more change information than just a quick oneliner)
 --Usual information --> Why is something done, What its done, etc
@@ -37,6 +38,12 @@ enter title, and information (more change information than just a quick oneliner
 --OR--
 -- commit (one liner)
 git commit -m "messages"
+
+-- Git doesnt track filename changes so Renaming, or moving must occur --
+git mv <source> <destination>
+
+-- Delete file
+git rm <filename> <filenameN>
 
 -- push
 
