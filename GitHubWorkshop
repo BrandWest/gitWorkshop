@@ -87,6 +87,7 @@ git merge <Branchname>
 
 
 -------------------------------------------------------------------------------------------
+
 -- Pull
 --- merges the remote repository with local
 
@@ -97,7 +98,8 @@ git merge <Branchname>
 --Fetch
 -- Get changes from remote but doesn't merge
 
----------------------------------
+-------------------------------------------------------------------------------------------
+
 -- create a remote reposity
 git remote add <name:Default "origin"> git@github.com:username/repo
 
@@ -107,3 +109,13 @@ git push -u origin master
 -- branch pushing
 git push --set-upstream origin developement 
 
+-- stash
+-- Saves changes outside of commit history
+git stash 
+
+
+-------------------------------------------------------------------------------------------
+
+
+PRACTICE!!!!
+https://try.github.io/
